@@ -28,16 +28,16 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Book{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", authors=" + Arrays.toString(authors) +
-                ", publisher=" + publisher +
-                ", publishingYear=" + publishingYear +
-                ", amountOfPages=" + amountOfPages +
-                ", price=" + price +
-                ", coverType=" + coverType +
-                '}';
+        return "\nBook :\t{ " +
+                "\n\t  id : " + id +
+                ",\n\t  name : '" + name + "'" +
+                ",\n\t  authors : " + Arrays.toString(authors) +
+                ",\n\t  publisher : " + publisher +
+                ",\n\t  publishingYear : " + publishingYear +
+                ",\n\t  amountOfPages : " + amountOfPages +
+                ",\n\t  price : " + price +
+                ",\n\t  coverType : " + coverType +
+                "\n\t}\n";
     }
 
     public Author[] getAuthors() {

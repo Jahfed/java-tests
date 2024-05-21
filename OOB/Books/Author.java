@@ -14,9 +14,9 @@ public class Author {
 
     @Override
     public String toString() {
-        return "Author{" +
-                "id=" + id +
-                ", name='" + firstName + " " + lastName + "\'}";
+        return " Author: {" +
+                " id : " + id +
+                ", name : '" + firstName + " " + lastName + "\'}";
     }
 
     public Object getId() {

@@ -42,7 +42,7 @@ public class Demo {
         }
 
         private static void printFilteredList(String filteredBy, Book[] listToPrint) {
-                String format = "FILTERED BY %s :";
+                String format = "\n>>>>>>>FILTERED BY %s :";
                 System.out.println(String.format(format, filteredBy));
                 for (Book book : listToPrint) {
                         System.out.println(book);
